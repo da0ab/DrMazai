@@ -1,0 +1,46 @@
+footer {
+        &.footer {
+                background: rgba( $base-color, .5 );
+                div {
+                        line-height: $body-line-height;
+                        color: $base-color;
+                        padding:0.5rem;
+                        & a {
+                        color: rgba( $base-color, .6 );
+                        }
+                        & a:hover {
+                        color: invert($base-color);
+                        }
+                                        }
+                .footer__menu{
+                        @include span(4 of 12);
+                        font-size: $small-font-size/1.5;
+
+                }
+                .footer__banner {
+                        @include span(4 of 12);
+                        & img {
+                                width: 25%;
+                                margin: $body-line-height $body-line-height/2 $body-line-height 0;
+                        }
+                }
+                .footer__social {
+                        @include span(4 of 12);
+                        font-size: $small-font-size*1.5;
+                        text-align: right;
+                        @include last;
+                }
+                .footer__copyright {
+                        @include span(12 of 12);
+                        font-size: $small-font-size/1.5;
+                        color: rgba( $base-color, .6 );
+                        text-align: right;
+                        border-top: 1px solid  invert($base-color);
+                                        }
+        }
+}
+
+
+
+
+

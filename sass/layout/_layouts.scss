@@ -1,0 +1,27 @@
+.main--container {
+        @include container (1200px);
+        & img {
+                max-width:100%;
+
+        }
+}
+.content {
+        @include clearfix;
+}
+.column-big {
+        @include span(8 of 12);
+}
+
+.column {
+        @include span(3 of 12);
+}
+
+
+.gallery {
+        @include span(10 of 12);
+}
+.gallery img {
+        @include gallery(2 of 12);
+        @include clearfix;
+}
+

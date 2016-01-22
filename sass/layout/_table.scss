@@ -1,0 +1,38 @@
+table, th, td {
+        border: none;
+}
+
+table {
+        width:100%;
+        display: table;
+        & > thead > tr,
+        & > tbody > tr {
+                border-bottom: 1px solid $table-border-color;
+        }
+
+        & > tbody {
+                > tr:nth-child(odd) {
+                        background-color: $table-striped-color;
+                }
+
+                > tr > td {
+                        border-radius: 0px;
+                }
+        }
+
+        & > tbody > tr {
+                //@include transition(background-color .25s ease);
+                &:hover {
+                        background-color: $table-striped-color;
+                }
+        }
+
+        &.centered {
+                thead tr th, tbody tr td {
+                        text-align: center;
+
+                }
+        }
+
+}
+

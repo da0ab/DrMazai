@@ -1,0 +1,50 @@
+// ---------------------- Fonts
+$small-font-size:               1.2rem;
+$body-line-height:              1.5rem;
+$icon-font:                     'FontAwesome';
+
+// ---------------------- Basic stylings
+$br:                            0;
+$xs-pad:                        .4rem;
+$sm-pad:                        .8rem;
+$md-pad:                        1.6rem;
+$lg-pad:                        2rem;
+$xlg-pad:                       4rem;
+$transition:                    .25s ease;
+$border:                        .1rem solid;
+
+
+// ---------------------- Color
+$red:                           #ff4136;
+$base-color:                    #000;
+$one-color:                     #ccc;
+$two-color:                     #7A3D51;
+$link-color:                    #1B2F5D;
+$hr-color:                      #ccc;
+$selection-background-color:    #b3d4fc !default;
+$selection-text-shadow:         none !default;
+$table-border-color:            #ccc;
+$table-striped-color:           #dadada;
+
+// ---------------------- Greyscale
+$white:                         #fff;
+$light-grey:                    #efefef;
+$silver:                        #ccc;
+$grey:                          #777;
+$black:                         #444;
+
+// ---------------------- Menu
+$menu-bg:                       #ccc;
+$menu-width:                    250px !default;
+
+
+// ---------------------- Media
+$mobile:                        768px;
+$tablet:                        1024px;
+$desktop:                       1200px;
+$largedesktop:                  1600px;
+
+// ---------------------- Widget
+$widget-background:             #F5F5F5;
+$widget-title-size:             1.2rem;
+$widget-title-color:            #000;

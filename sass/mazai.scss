@@ -1,0 +1,42 @@
+@charset "UTF-8";
+@import 'variables';
+@import 'base/glob';
+//@import 'components/glob';
+@import 'layout/glob';
+@import 'dubak/glob';
+//@import 'pages/glob';
+//@import 'themes/glob';
+//@import 'utils/glob';
+
+
+
+
+
+
+.news {
+        background: rgba( $base-color, .1);
+        @include container;
+        @include clearfix;
+}
+.anons{
+        @include breakpoint($mobile) {
+                @include span(12 of 12);
+                border:1px solid RED;
+
+        }
+        @include breakpoint(900px){
+                @include span(2 of 12);
+
+                border:1px solid #000;
+        }
+}
+.index-big-img {
+        @include span(2 of 12);
+        & img {
+                width:100%;
+        }
+}
+.index-lid {
+        @include span(3 of 12);
+
+}

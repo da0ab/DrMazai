@@ -1,0 +1,44 @@
+
+.article__tags {
+        font-size:0.9rem;
+        color:$one-color;
+
+}
+.article--static-page {
+}
+.article__header-img--static-page {
+     @include span(9 of 12);   
+     @include clearfix;
+}
+.article__header--static-page, .article__header--page {
+        background:none;
+        @include span(6 of 12);
+        & h1 {
+                font-size:2rem;
+        }
+}
+
+.article__pre-img--static-page {
+        @include span(3 of 12);
+        font-size:0.9rem;
+
+
+}
+.article__pre-img--static-page img {
+}
+.article__content--static-page {
+        @include span(12 of 12);
+        //@include clearfix;
+
+}
+.article__footer--static-page {
+        border-top:1px solid $hr-color;
+        padding:1rem;
+}
+
+
+.article__category-name {
+        background:none;
+        font-size:0.9rem;
+
+}
