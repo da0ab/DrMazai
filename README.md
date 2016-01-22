@@ -1,3 +1,3 @@
 # Dr.Mazai
-bourbon neats +
+bourbon susy +
 ![](https://github.com/da0ab/DrMazai/blob/master/dr.mazai.png?raw=true)
