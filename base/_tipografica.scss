@@ -1,0 +1,11 @@
+a {
+    text-decoration:none;
+    color: $link-color;
+}
+a:hover {
+    transition: all 0.3s linear 0s;
+ color: rgba( $link-color, .3);
+}
+a:not(:hover) {
+    transition: all 0.3s linear 0s;
+}

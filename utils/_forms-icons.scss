@@ -1,0 +1,25 @@
+.label-adress:before, .label-email:before, .label-user:before, .label-name:before, .label-comment:before, .label-tel:before {
+        font-family:$icon-font;
+        color:$input-border-color;
+        text-decoration: none !important;
+        white-space: nowrap;
+}
+.label-comment:before {
+        content: '\f075    ';
+}
+.label-tel:before {
+        content: '\f095    ';
+}
+.label-adress:before {
+        content: '\f041    ';
+}
+.label-email:before {
+        content: '\f0e0    ';
+}
+.label-user:before {
+        content: '\f007    ';
+}
+.label-name:before {
+        content: '\f007    ';
+}
+

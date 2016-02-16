@@ -1,0 +1,63 @@
+table, th, td {
+        border: none;
+}
+
+table {
+        width:100%;
+        display: table;
+        font-size:$font-size/1.2;
+        & th:nth-last-child(4){
+                width:10%;
+        }
+        & th:nth-last-child(3), th:nth-last-child(2){
+                width:25%;
+        }
+        & th:nth-last-child(1) {
+                width:30%;
+        }
+        & tr {
+                &:hover {
+                        background-color: $base-color;
+                        color:#fff;
+                }
+
+                &:nth-child(odd) {
+                        background-color: #fff;
+                        &:hover {
+                                background-color: $base-color;
+                                color:#fff;
+                        }
+                }
+
+
+        }
+
+        & tr > th  {
+                text-align: center;
+                border-right:1px solid $table-border-color;
+                padding:1rem;
+                background-color: $base-color;
+                color:#ccc;
+                &:last-child {
+                        border-right:none;
+                }
+
+        }
+
+
+        & tr > td {
+                border-radius: 0px;
+                padding:1rem;
+                border-right:1px solid $table-border-color;
+                &:last-child {
+                        border-right:none;
+                }
+
+
+
+        }
+
+
+
+}
+

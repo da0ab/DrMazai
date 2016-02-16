@@ -1,0 +1,24 @@
+.category, .org {
+        font-weight:bold;
+} 
+.locality:before {
+        font-family:$icon-font;
+        content:'\f041  ';
+        color:$icon-color;
+        text-decoration:$no;
+        white-space:nowrap;
+}
+.metro:before {
+        font-family:$icon-font;
+        content:'\f239  ';
+        color:$icon-color;
+        text-decoration:$no;
+        white-space:nowrap;
+}
+.workhours:before {
+        font-family:$icon-font;
+        content:'\f017  ';
+        color:$icon-color;
+        text-decoration:$no;
+        white-space:nowrap;
+}

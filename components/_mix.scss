@@ -1,0 +1,16 @@
+
+
+.date {
+        font-size:$font-size /2;
+}
+
+.readmore:after {
+        //font-family:$icon-font;
+        content: 'Читать далее...';
+        font-size:$font-size /2;
+}
+
+.author:after {
+        font-family:$icon-font;
+        content: '\f007';
+}

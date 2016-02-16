@@ -1,0 +1,12 @@
+.wrapper {
+        @include container (1200px);
+        & img {
+                max-width:100%;
+        }
+}
+.content {
+        @include container;
+        @include clearfix;
+        }
+
+
